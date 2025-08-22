@@ -17,7 +17,7 @@ export default function AboutMe(){
                         
                         <div className="my-5">
                             <p className="fw-bold">Front-End Web Developer Intern</p>
-                            <p>Sep 2024 - Present</p>
+                            <p>Tech Tycoons</p>
                             <ul className="mx-4" style={{lineHeight:"45px"}} >
                                 <li>Developed responsive user interfaces using React.js and Next.js.</li>
                                 <li>Collaborated with back-end developers to integrate APIs and enhance website functionality.</li>
@@ -26,8 +26,8 @@ export default function AboutMe(){
                         </div>
 
                         <div className="my-5">
-                            <p className="fw-bold">Education Director</p>
-                            <p>HHHPO, Quetta</p>
+                            <p className="fw-bold">Coordinator - UOP Chapter</p>
+                            <p>Human Care Foundation</p>
                             <ul className="mx-4" style={{ lineHeight : "45px"}}>
                                 <li>Managed and organized educational initiatives and programs.</li>
                                 <li>Coordinated with team members to develop engaging learning materials.</li>
@@ -35,8 +35,8 @@ export default function AboutMe(){
                         </div>
 
                         <div className="my-5">
-                            <p className="fw-bold">Volunteer</p>
-                            <p>Business Incubation Center, University of Peshawar</p>
+                            <p className="fw-bold">Technical Lead</p>
+                            <p>Arfa Karim Tech Incubator, Peshawar</p>
                             <ul className="mx-4" style={{ lineHeight : "45px"}}>
                                 <li>Assisted in event organization and presentations</li>
                                 <li>Supported multiple events by facilitating logistics and participant engagement.</li>
@@ -44,8 +44,8 @@ export default function AboutMe(){
                         </div>
 
                         <div className="my-5">
-                            <p className="fw-bold">Co-Lead</p>
-                            <p>Google Developer Group (GDGOC) </p>
+                            <p className="fw-bold">Social Media Team Lead</p>
+                            <p>Tech Tycoons </p>
                             <ul className="mx-4" style={{ lineHeight : "45px"}}>
                                 <li>Led the planning and execution of community tech events.</li>
                                 <li>Motivated team members and ensured smooth coordination.</li>
@@ -54,15 +54,37 @@ export default function AboutMe(){
 
                     </div>
                 </div>
-                <div className="my-5 py-3">
-                    <h2 style={{ lineHeight : "45px"}}>Leadership and Activities</h2>
-                    <ul className="px-5 fs-5 mx-4" style={{fontFamily:"Hind", lineHeight : "45px"}}>
-                        <li>Head of Content and Graphic Design Team, Computing Student Society</li>
-                        <li>Lead branding and template design projects, managing a team of 5 members</li>
-                        <li>Mentor and instructor for juniors in programming and exam preparation</li>
-                        <li>Social Media Manager, Alumnite Community</li>
-                        <li>Supervisor and Instructor, Tech Tycoons Web Development & Digital Marketing Team</li>
-                    </ul>
+                <div className="my-5 py-3 fs-5" style={{fontFamily:"Hind"}}>
+                    <div className="my-5">
+                        <h2 style={{ lineHeight : "45px"}}>Volunteer Work and Activities</h2>
+                        <p className="fw-bold">Ration Distribution Drive</p>
+                        <p>The Youth Foundation </p>
+                        <ul className="px-5 fs-5 mx-4" style={{fontFamily:"Hind", lineHeight : "45px"}}>
+                            <li>Collected donations & provided ration to underprivileged families.</li>   
+                        </ul>
+                    </div>
+                    <div className="my-5">
+                        <p className="fw-bold">Ramzan Dastarkhwan</p>
+                        <p>Human Care Foundation </p>
+                        <ul className="px-5 fs-5 mx-4" style={{fontFamily:"Hind", lineHeight : "45px"}}>
+                            <li>Helped organize & distribute food during Ramadan.</li>   
+                        </ul>
+                    </div>
+
+                    <div className="my-5">
+                        <p className="fw-bold">Event Management</p>
+                        <p>Future Leaders Expo 2024 </p>
+                        <ul className="px-5 fs-5 mx-4" style={{fontFamily:"Hind", lineHeight : "45px"}}>
+                            <li> Managed event logistics as avolunteer.</li>   
+                        </ul>
+                    </div>
+                    <div className="my-5">
+                        <p className="fw-bold">Ambassador</p>
+                        <p>EWH Program, The Youth Foundation </p>
+                        <ul className="px-5 fs-5 mx-4" style={{fontFamily:"Hind", lineHeight : "45px"}}>
+                            <li>Raised PKR 100/month from donors to support unemployed individuals in starting small businesses for their families.</li>   
+                        </ul>
+                    </div>
                 </div>
             </div>  
             <Footer />
