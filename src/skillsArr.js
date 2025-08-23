@@ -29,6 +29,12 @@ let skills =[
         level : "Proficient",
         progress: 75
     },
+    {
+        key: 6,
+        name: "Material UI (MUI)",
+        level : "Intermediate",
+        progress: 50
+    },
 ]
 
 let languages =[

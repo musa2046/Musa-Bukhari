@@ -12,7 +12,7 @@ export default function MyProjects(){
             <Navbar />
             <section className="projects container my-5">
                 <h2 className="fw-bold " >Projects</h2> 
-                <div className=" row row-cols-1 row-cols-md-2 justify-content-center gap-5 py-4">
+                <div className=" row row-cols-1 row-cols-md-2 justify-content-center gap-5 py-4" id="moreProjects">
                 
                     {projectsArr.map(project =>{
                         return <ProjectCard 
@@ -25,7 +25,7 @@ export default function MyProjects(){
                     })}
                 </div>
             </section>
-            <section className="container skills">
+            <section className="container skills" id="moreSkills">
                 <h2 className="fw-bold " >Skills</h2> 
                 <h4 className="my-3 fw-semibold">Web Development</h4>
                 <div className="mx-2">
