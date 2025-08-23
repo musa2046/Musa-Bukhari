@@ -16,8 +16,10 @@ export default function MyProjects(){
                 
                     {projectsArr.map(project =>{
                         return <ProjectCard 
+                            key = {project.key}
                             heading = {project.heading}
                             imgURL = {project.imgURL}
+                            // imgURL =  "src\assets\project-pics\Ecommerce Website project.png"
                             description = {project.description}
                         />
                     })}
