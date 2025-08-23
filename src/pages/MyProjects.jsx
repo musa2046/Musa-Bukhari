@@ -21,6 +21,8 @@ export default function MyProjects(){
                             imgURL = {project.imgURL}
                             // imgURL =  "src\assets\project-pics\Ecommerce Website project.png"
                             description = {project.description}
+                            previewLink = {project.previewLink}
+                            repoLink = {project.repoLink}
                         />
                     })}
                 </div>

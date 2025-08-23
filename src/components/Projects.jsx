@@ -8,8 +8,17 @@ export default function Projects() {
                 <SectionHeading heading = "Projects" seeMoreLink = {"/MyProjects#moreProjects"}/>
             <div className=" row row-cols-1 row-cols-md-2 justify-content-center gap-5 py-4">
                  
-                 <ProjectCard heading="project" description="project discription" imgURL = "src\assets\CV pic.jpg" />
-                 <ProjectCard heading="project" description="project discription" imgURL = "src\assets\CV pic.jpg" />
+                 <ProjectCard
+                  heading="project"
+                  description="project discription"
+                  imgURL = "src\assets\CV pic.jpg"
+                  previewLink="https://github.com/musa2046/Netflix-clone"
+                  repoLink="https://github.com/musa2046/Netflix-clone"/>
+                 <ProjectCard heading="project"
+                  description="project discription"
+                  imgURL = "src\assets\CV pic.jpg"
+                  previewLink="https://github.com/musa2046/Netflix-clone"
+                  repoLink="https://github.com/musa2046/Netflix-clone" />
             </div>
         </section>
     );

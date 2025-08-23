@@ -11,8 +11,8 @@ export default function ProjectCard(props){
                     <h5 className="card-heading fw-bold text-white my-4  pu-3">{props.heading}</h5>
                     <p className="card-text text-white my-4"  style={{fontSize:"18px"}}>{props.description}</p>
                     <div className="d-flex justify-content-between  ">
-                        <GradientButton text="Live Preview"  type="button-gradientToColor"/>
-                        <GradientButton text="Check On Github" type="button-colorToGradient"/>
+                        <GradientButton text="Live Preview"  type="button-gradientToColor" link={props.previewLink} />
+                        <GradientButton text="Check On Github" type="button-colorToGradient" link={props.repoLink}/>
                     </div>
                 </div>
             </div>
