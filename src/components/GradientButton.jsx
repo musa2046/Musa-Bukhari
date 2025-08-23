@@ -1,7 +1,7 @@
 export default function GradientButton(props){
     return(
         <>
-            <a href= {props.link} target="_blank" rel="noopener noreferrer" className= {`btn rounded-pill button-style  ${props.type} fw-bold fs-5 `} >
+            <a href= {props.link} {...(props.download? {download : props.download }:{}) } target="_blank" rel="noopener noreferrer" className= {`btn rounded-pill button-style  ${props.type} fw-bold fs-5 `} >
                 <span> {props.text}</span>
              </a>
         </>

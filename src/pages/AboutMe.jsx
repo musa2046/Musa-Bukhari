@@ -19,9 +19,9 @@ export default function AboutMe(){
                             <p className="fw-bold">Front-End Web Developer Intern</p>
                             <p>Tech Tycoons</p>
                             <ul className="mx-4" style={{lineHeight:"45px"}} >
-                                <li>Developed responsive user interfaces using React.js and Next.js.</li>
-                                <li>Collaborated with back-end developers to integrate APIs and enhance website functionality.</li>
-                                <li>Participated in code reviews and contributed to improving code quality.</li>
+                                <li>Gained hands-on experience with React Bootstrap and Material UI by implementing them in projects.</li>
+                                <li>Built multiple projects with React-Bootstrap and Material UI, including a Keeper App, To-Do List App, and Personal Portfolio, to strengthen my front-end development skills.</li>
+                                
                             </ul>
                         </div>
 
@@ -29,8 +29,8 @@ export default function AboutMe(){
                             <p className="fw-bold">Coordinator - UOP Chapter</p>
                             <p>Human Care Foundation</p>
                             <ul className="mx-4" style={{ lineHeight : "45px"}}>
-                                <li>Managed and organized educational initiatives and programs.</li>
-                                <li>Coordinated with team members to develop engaging learning materials.</li>
+                                <li>Led a Ramzan Dastarkhwan donation drive, providing iftar meals to underprivileged communities.</li>
+                                <li>Organized multiple student-focused seminars to promote learning and community engagement.</li>
                             </ul>
                         </div>
 
@@ -38,8 +38,8 @@ export default function AboutMe(){
                             <p className="fw-bold">Technical Lead</p>
                             <p>Arfa Karim Tech Incubator, Peshawar</p>
                             <ul className="mx-4" style={{ lineHeight : "45px"}}>
-                                <li>Assisted in event organization and presentations</li>
-                                <li>Supported multiple events by facilitating logistics and participant engagement.</li>
+                                <li>Guided early initiatives and coordinated team efforts to support student-focused activities.</li>
+                                <li>Organized an online panel discussion connecting students with industry professionals to bridge academia and the tech market.</li>
                             </ul>
                         </div>
 
@@ -47,8 +47,8 @@ export default function AboutMe(){
                             <p className="fw-bold">Social Media Team Lead</p>
                             <p>Tech Tycoons </p>
                             <ul className="mx-4" style={{ lineHeight : "45px"}}>
-                                <li>Led the planning and execution of community tech events.</li>
-                                <li>Motivated team members and ensured smooth coordination.</li>
+                                <li>Contributed to building a student-led tech community by managing social media presence and creating engaging content.</li>
+                                <li>Organized and supported study circles and learning sessions to help Computer Science students grow their skills collaboratively.</li>
                             </ul>
                         </div>
 

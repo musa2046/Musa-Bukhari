@@ -19,7 +19,7 @@ export default function Hero() {
              using HTML, CSS, JavaScript, Bootstrap, <br/> and
              React,  focusing on performance, user <br/> experience,
               and clean design.</p>
-            <GradientButton text= "Download CV" type="button-gradientToColor"           />   
+            <GradientButton text= "Download CV" type="button-gradientToColor"   link="public\MY CV.pdf"  download = "Musa_CV.pdf"      />   
            </div>
         </section>
     )
