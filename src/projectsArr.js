@@ -12,7 +12,7 @@
         imgURL : keeperImg,
         heading: "Keeper App",
         description : "A React-based note-taking app with a clean UI, dynamic card layout, and Material-UI integration for organizing and managing tasks efficiently",
-        previewLink : "",
+        previewLink : "https://musa2046.github.io/Keeper-App/",
         repoLink : "https://github.com/musa2046/Keeper-App"
     },
     {
@@ -20,7 +20,7 @@
         imgURL : netflixImg,
         heading: "Netflix Clone",
         description : "A responsive Netflix sign-in page clone built with HTML and CSS, showcasing clean layout, pixel-perfect design, and attention to UI/UX details.",
-        previewLink : "",
+        previewLink : " https://musa2046.github.io/Netflix-clone/",
         repoLink : "https://github.com/musa2046/Netflix-clone"
     },
     {
@@ -28,7 +28,7 @@
         imgURL : rockPaperScissorImg,
         heading: "Rock Paper Scissor Game",
         description : "An interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript featuring score tracking, autoplay mode, and fun gameplay against the computer.",
-        previewLink : "",
+        previewLink : "https://musa2046.github.io/rock-paper-scissors-game/",
         repoLink : "https://github.com/musa2046/rock-paper-scissors-game"
     },
     {
@@ -36,7 +36,7 @@
         imgURL : todoImg,
         heading: "TO-DO List",
         description : "A simple To-Do List app built with React, focusing on core React concepts, featuring task addition and deletion with minimal UI design.",
-        previewLink : "",
+        previewLink : " https://musa2046.github.io/TO-DO-List-REACT/",
         repoLink : "https://github.com/musa2046/TO-DO-List-REACT"
     },
     {
@@ -52,7 +52,7 @@
         imgURL : ecommercecImg,
         heading: "Ecommerce Website Design",
         description : "An E-commerce website design built with HTML and CSS, closely following a Figma layout to practice pixel-perfect UI development.",
-        previewLink : "",
+        previewLink : "https://musa2046.github.io/E-commerce-web-design-from-figma/",
         repoLink : "https://github.com/musa2046/E-commerce-web-design-from-figma"
     },
 

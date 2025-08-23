@@ -6,6 +6,7 @@ import ProgressBar from "../components/ProgressBar";
 import projectsArr from "../projectsArr";
 import { skills,languages } from "../skillsArr";
 import AdditionalSkill from "../components/AdditionalSkill";
+import additionalSkillArr from "../additionalSkillArr";
 export default function MyProjects(){
     return(
         <>
@@ -32,8 +33,11 @@ export default function MyProjects(){
                 <h4 className="my-3 fw-semibold">Web Development</h4>
                 <div className="mx-2">
                     {skills.map((skill)=>{
-                        return <ProgressBar name= {skill.name}
-                                 level={skill.level} width={skill.progress}/> 
+                        return <ProgressBar
+                        name= {skill.name}
+                        level={skill.level}
+                        width={skill.progress} 
+                        key= {skill.key}/>
                     })}
                 </div>
             </section>    
@@ -41,22 +45,22 @@ export default function MyProjects(){
                 <h4 className="my-3 fw-semibold">Programming Languages</h4>
                 <div className="mx-2">
                     {languages.map((language)=>{
-                        return <ProgressBar name= {language.name}
-                                 level={language.level} width={language.progress}/> 
+                        return <ProgressBar
+                        name= {language.name}
+                        level={language.level}
+                        width={language.progress}
+                        key= {language.key}/> 
                     })}
                 </div>
 
                 <h2 className="fw-bold " >Additional Skills and Technologies</h2> 
                 <div className="container row row-cols-md-3 gx-5 ">
-                    <AdditionalSkill skillName= "Git"/>
-                    <AdditionalSkill skillName= "Communication"/>
-                    <AdditionalSkill skillName= "Team Work"/>
-                    <AdditionalSkill skillName= "Leadership"/>
-                    <AdditionalSkill skillName= "Social Meadia Management"/>
-                    <AdditionalSkill skillName= "Content Creation"/>
-                    <AdditionalSkill skillName= "MS Word"/>
-                    <AdditionalSkill skillName= "MS Excel"/>
-                    <AdditionalSkill skillName= "MS Powerpoint"/>
+                    {additionalSkillArr.map((additionalSkill)=>{
+                        return <AdditionalSkill 
+                        key = {additionalSkill.key}
+                        skillName = {additionalSkill.skillName}
+                        />
+                    })}
                     
                 </div>
             </section>    
