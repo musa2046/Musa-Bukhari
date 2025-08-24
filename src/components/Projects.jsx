@@ -11,12 +11,12 @@ export default function Projects() {
                  <ProjectCard
                   heading="Keeper App"
                   description="A React-based note-taking app with a clean UI, dynamic card layout, and Material-UI integration for organizing and managing tasks efficiently"
-                  imgURL = "src\assets\project-pics\Keeper-App-project.png"
+                  imgURL = "src/assets/project-pics/Keeper-App-project.png"
                   previewLink="https://github.com/musa2046/Netflix-clone"
                   repoLink="https://github.com/musa2046/Keeper-App"/>
                  <ProjectCard heading="Rock Paper Scissor Game"
                   description="An interactive Rock-Paper-Scissors game built with HTML, CSS, and JavaScript featuring score tracking, autoplay mode, and fun gameplay against the computer."
-                  imgURL = "src\assets\project-pics\rock-paper-scissor-project.png"
+                  imgURL = "src/assets/project-pics/rock-paper-scissor-project.png"
                   previewLink="https://musa2046.github.io/rock-paper-scissors-game/"
                   repoLink="https://github.com/musa2046/rock-paper-scissors-game" />
             </div>
