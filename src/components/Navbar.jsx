@@ -1,6 +1,6 @@
 import Socials from "./Socials"
 import { NavLink } from "react-router"
-import navLogo from "src/assets/musa_logo_simple.svg"
+import navLogo from "../assets/musa_logo_simple.svg"
 
 export default function Navbar(){
     return (
