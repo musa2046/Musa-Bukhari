@@ -346,9 +346,7 @@ padding: 3px;
 }
 
 /* ************************************************Media-Queries************************************** */
-/* max-width: 767.98px    
-max-width: 575.98px */
-/* Phones (extra small devices, <576px) */
+
 @media (max-width: 767.98px ) {
 
   html{
@@ -397,52 +395,84 @@ max-width: 575.98px */
 .about-me-div ul{
   line-height: 35px !important;
 }
+.aboutme-grid{
+position: relative;
+
 }
+.aboutme-grid::before{
+content: "-";
+position: absolute;
+left: 0;
+width: 1.5rem;
+min-width: 1rem;
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* Small devices (landscape phones, ≥576px) */
-@media (min-width: 576px) and (max-width: 767.98px) {
-  
+}
 }
 
 /* Medium devices (tablets, ≥768px) */
 @media (min-width: 768px) and (max-width: 991.98px) {
+  .glow-1{
+      /* display: none; */
+    }
+    .glow-2{
+    /* display: none; */
+  }
+  .circle-1-border{
+    left: 75% ;
+  }
+  .circle-2-border{
+    left: 60% ;
+  }
+  .circle-3-border{
+    top: 48%;
+    left:93% ;
+  }
+  .circle-4-border{
+    left:93% ;
+  }
+/*   
+  .hero-text{
+    justify-content: center !important;
+    align-items: center !important;
+    
+  }
+  .hero-text-para{
+    text-align: center;
+  }
+    */
+    .aboutme-grid{
+  position: relative;
   
 }
-
-/* Large devices (desktops, ≥992px) */
-@media (min-width: 992px) and (max-width: 1199.98px) {
-
+.aboutme-grid::before{
+  content: "-";
+  position: absolute;
+  left: 0;
+  width: 1.5rem;
+  min-width: 1rem;
+ 
+}
 }
 
-/* Extra large devices (≥1200px) */
-@media (min-width: 1200px) and (max-width: 1399.98px) {
 
-}
 
-/* Extra extra large devices (≥1400px) */
-@media (min-width: 1400px) {
-  
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
