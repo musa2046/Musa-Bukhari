@@ -5,7 +5,7 @@ export default function Skills(){
         <>
             <section className="container skills">
                 <SectionHeading heading ="Skills" seeMoreLink = {"/MyProjects#moreSkills"} /> 
-                <h4 className="my-3 fw-semibold">Web Development</h4>
+                <h4 className="my-3 fw-semibold text-center text-lg-start">Web Development</h4>
                 <div className="mx-2">
                     <ProgressBar name="HTML" level="Advance" width="100" />
                     <ProgressBar name="CSS" level="Advance" width="100" />

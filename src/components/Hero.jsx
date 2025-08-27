@@ -15,7 +15,7 @@ export default function Hero() {
             <h1 className='gradient-text fw-bold'>Hello I'm Musa Bukhari,</h1>
             <h1 className='fw-bold'>Front-End Developer</h1>
             
-            <p className='text-break fs-4'>I create responsive, modern web applications <br/>
+            <p className='text-break fs-4 text-center text-lg-start'>I create responsive, modern web applications <br/>
              using HTML, CSS, JavaScript, Bootstrap, <br/> and
              React,  focusing on performance, user <br/> experience,
               and clean design.</p>

@@ -11,7 +11,7 @@ export default function MyProjects(){
         <>
             <Navbar />
                 <section className="projects container my-5">
-                    <h2 className="fw-bold " >Projects</h2> 
+                    <h2 className="fw-bold text-center text-md-start " >Projects</h2> 
                     <div className=" row row-cols-1 row-cols-md-2 justify-content-center gap-5 py-4" id="moreProjects">
                     
                         {projectsArr.map(project =>{
@@ -52,8 +52,8 @@ export default function MyProjects(){
                         })}
                     </div>
 
-                    <h2 className="fw-bold " >Additional Skills and Technologies</h2> 
-                    <div className="container row row-cols-md-3 gx-5 ">
+                    <h2 className="fw-bold  " >Additional Skills and Technologies</h2> 
+                    <div className="container row row-cols-3 gx-3 gx-md-5">
                         {additionalSkillArr.map((additionalSkill)=>{
                             return <AdditionalSkill 
                             key = {additionalSkill.key}

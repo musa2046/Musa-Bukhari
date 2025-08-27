@@ -62,7 +62,7 @@ body{
     top: 11%;
     left: 52%;
     z-index: 2;
-    /* background: radial-gradient(circle at 50% 50%, #0ABDC6, transparent 67%); */
+    
      background: radial-gradient(
     circle,
     rgba(10, 189, 198, 0.6) 0%,
@@ -80,7 +80,7 @@ body{
     top: 29%;
     left: 62%;
     z-index: 1;
-    /* background: radial-gradient(circle at 50% 50%, #0ABDC6, transparent 55%); */
+   
      background: radial-gradient(
     circle,
     rgba(10, 189, 198, 0.6) 0%,  
@@ -175,11 +175,9 @@ padding: 3px;
 }
 .button-style{
   background: linear-gradient(90deg,#711C91, #0ABDC6, #133E7C);
-  /* background-color: #711C91; */
-  /* background-color: #fff; */
   position: relative;
   width: 50%;
-  min-width: 183px;
+  min-width: 130px;
   max-width: 200px;
   max-height: 50px;
   color: white;
@@ -259,7 +257,7 @@ padding: 3px;
 .viewmore-shadow{
   position: relative;
   display: inline-block;
-  /* text-decoration: none; */
+  
 }
 .viewmore-shadow:hover:after{
   content: "";
@@ -276,14 +274,14 @@ padding: 3px;
 }
 .card-border:hover{
   box-shadow: 0px 0px 25px -14px #0ABDC6;
-  /* box-shadow: 0px 0px 20px -10px #0ABDC6; */
+ 
   
   
 }
 .project-card{
   border: 2px solid ;
   border-radius: 20px;
-  /* border-image :  linear-gradient(90deg, #711C91,  #133E7C, #0ABDC6) 1; */
+  
   padding: 15px;
   background-color: #091833;
   width: 100%;
@@ -303,7 +301,33 @@ padding: 3px;
   background:  linear-gradient(90deg, #711C91,  #133E7C, #0ABDC6);
   box-shadow: 0px 0px 25px -5px #0ABDC6 ;
 }
+/* *********************************************About design******************************************** */
 
+.about-design{
+  width: 80%;
+  height: 8px;
+  border-radius:20px ;
+  background-color:white ;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.about-design-child{
+  height: 25px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  background-color: #0ABDC6;
+}
+.about-me-para{
+  line-height: 45px ;
+  font-family:"Hind"
+  
+}
+.about-me-div ul {
+  line-height: 45px ;
+  font-family:"Hind"
+}
 /* ******************************************Projects page************************************ */
 
 .Additional-skill-gradient{
@@ -322,58 +346,57 @@ padding: 3px;
 }
 
 /* ************************************************Media-Queries************************************** */
-
+/* max-width: 767.98px    
+max-width: 575.98px */
 /* Phones (extra small devices, <576px) */
-@media (max-width: 575.98px) {
+@media (max-width: 767.98px ) {
 
   html{
     font-size: 12px;
   }
   .hero{
-  height: 75vh;
+  height: 60vh;
 }
 .glow-1{
-    width: 35%;
-    top: 17%;
-    left: 52%;
-}
-.glow-2{
-    width: 35%;
-    top: 27%;
-    left: 62%;  
+    display: none;
+  }
+  .glow-2{
+  display: none;
 }
 .circle-1-border{
-top: 23%;
-left: 57%;
-min-width: 105px;
-width: 26%;
+  display: none;
 }
 .circle-2-border{
-top: 31%;
-left: 40%;
-min-width: 120px;
-width: 30%;
+  display: none;
 }
 .circle-3-border{
-  top: 34%;
-  left: 72%;
-  z-index: 1;
-  min-width: 70px;
-  width: 16%;
+  display: none;
 }
 .circle-4-border{
-  top: 25%;
-  left: 72%;
-  min-width: 70px;
-  width: 16%;
-}
-.hero-text{
-  position: relative;
-  z-index:4;
-  justify-content: center !important;
-  padding-bottom: 180px;
+  display: none;
 }
 
+.hero-text{
+  justify-content: center !important;
+  align-items: center !important;
+  
+}
+.hero-text-para{
+  text-align: center;
+}
+.button-style{
+  width: 40%;
+}
+.card-border{
+  width: 80%;
+}
+.about-me-para{
+  line-height: 35px !important;
+  
+}
+.about-me-div ul{
+  line-height: 35px !important;
+}
 }
 
 

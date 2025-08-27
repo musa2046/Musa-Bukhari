@@ -5,7 +5,7 @@ let additionalSkillArr = [
     },
     {
         key : 2,
-        skillName: "Communication"
+        skillName: "Leadership"
     },
     {
         key : 3,
@@ -13,11 +13,11 @@ let additionalSkillArr = [
     },
     {
         key : 4,
-        skillName : "Leadership"
+        skillName : "Communication"
     },
     {
         key : 5,
-        skillName :"Social Meadia Management"
+        skillName :"Social Meadia "
     },
     {
         key : 6,
@@ -25,15 +25,15 @@ let additionalSkillArr = [
     },
     {
         key : 7,
-       skillName : "MS Word"
+       skillName : "Word"
     },
     {
         key : 8,
-        skillName :  "MS Excel"
+        skillName :  "Excel"
     },
     {
         key : 9,
-        skillName :  "MS Powerpoint"
+        skillName :  "Powerpoint"
     },
 ]
 
