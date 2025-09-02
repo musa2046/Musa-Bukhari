@@ -1,6 +1,5 @@
 {
   "homepage": "https://musa2046.github.io/Musa-Bukhari",
-
   "name": "my-portfolio",
   "private": true,
   "version": "0.0.0",
@@ -14,6 +13,7 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "bootstrap": "^5.3.7",
     "bootstrap-icons": "^1.13.1",
     "react": "^19.1.1",

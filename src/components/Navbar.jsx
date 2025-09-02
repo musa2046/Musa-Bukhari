@@ -14,7 +14,7 @@ export default function Navbar(){
                         <span className="navbar-toggler-icon " ></span>
                     </button>
                     
-                    <div className="offcanvas offcanvas-end " tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div className="offcanvas offcanvas-end " tabIndex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
                         <div className="offcanvas-header" style={{backgroundColor: "#091833"}}>
                             
                             <button type="button" className="btn-close me-2" data-bs-theme="dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
@@ -27,6 +27,7 @@ export default function Navbar(){
                             <li className="nav-item "> <NavLink className="nav-link text-white nav-item-underline "   to="/"><span>Home</span></NavLink></li>
                             <li className="nav-item "> <NavLink className="nav-link text-white nav-item-underline " to="/AboutMe"><span>About Me</span></NavLink></li>
                             <li className="nav-item "> <NavLink className="nav-link text-white nav-item-underline" to="/MyProjects"><span>Projects</span></NavLink></li>
+                            <li className="nav-item "> <NavLink className="nav-link text-white nav-item-underline" to="/ContactMe"><span>Contact Me</span></NavLink></li>
                             </ul>
                             
                             <div className="  d-flex justify-content-center mt-5 mt-lg-0"> <Socials /></div>
