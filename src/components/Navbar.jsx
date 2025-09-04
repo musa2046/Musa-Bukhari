@@ -24,10 +24,10 @@ export default function Navbar(){
                         <div className="offcanvas-body   " style={{backgroundColor: "#091833"}}>
 
                             <ul className="nav-elements navbar-nav  mx-auto  gap-5 text-white  fw-medium m-0 " style={{fontSize :"1.125rem"}}>
-                            <li className="nav-item "> <NavLink className="nav-link text-white nav-item-underline " data-bs-dismiss="offcanvas"   to="/"><span>Home</span></NavLink></li>
-                            <li className="nav-item "> <NavLink className="nav-link text-white nav-item-underline " data-bs-dismiss="offcanvas" to="/AboutMe"><span>About Me</span></NavLink></li>
-                            <li className="nav-item "> <NavLink className="nav-link text-white nav-item-underline" data-bs-dismiss="offcanvas" to="/MyProjects"><span>Projects</span></NavLink></li>
-                            <li className="nav-item "> <NavLink className="nav-link text-white nav-item-underline" data-bs-dismiss="offcanvas" to="/ContactMe"><span>Contact Me</span></NavLink></li>
+                            <li className="nav-item "  data-bs-dismiss="offcanvas" > <NavLink className="nav-link text-white nav-item-underline "  to="/"><span>Home</span></NavLink></li>
+                            <li className="nav-item "  data-bs-dismiss="offcanvas" > <NavLink className="nav-link text-white nav-item-underline "  to="/AboutMe"><span>About Me</span></NavLink></li>
+                            <li className="nav-item "  data-bs-dismiss="offcanvas" > <NavLink className="nav-link text-white nav-item-underline"  to="/MyProjects"><span>Projects</span></NavLink></li>
+                            <li className="nav-item "  data-bs-dismiss="offcanvas" > <NavLink className="nav-link text-white nav-item-underline"  to="/ContactMe"><span>Contact Me</span></NavLink></li>
                             </ul>
                             
                             <div className="  d-flex justify-content-center mt-5 mt-lg-0"> <Socials /></div>
